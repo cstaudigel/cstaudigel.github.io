@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12Factor Blog Post</title>
+</head>
+<body>
+    <h1>12Factor Blog Post</h1>
+    <h4>Config</h4>
+    <p>
+        I was kind of confused by their description of the config files.  For example, it says the .yml files are bad to use because they don't get checked into the repository, but it never says what the environment variables consist of or how to make them.  Are they files similar to the yaml config files? Or are they literally variables between systems, like OS, CPU Speed, Filesystem format? Those don't seem like the case because it says that the variables are OS and language independent, but I'm not sure what was going on there.
+    </p>
+    <h4>The Rest</h4>
+    <p>
+        Not to cop out, but the rest really made sense because they described what they meant in detail.  Keep builds similar between release and testing, make sure the program handles unexpected quits "gracefully", keep admin tasks to a single process to prevent accidental modifications, and so on.  Config was really the only issue I had, especially because we may be using a form of config in the group project.
+    </p>
+</body>
